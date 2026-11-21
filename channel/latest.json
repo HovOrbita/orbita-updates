@@ -1,13 +1,12 @@
 {
-  "build": 202611220200,
-  "label": "22.11 02:00",
+  "build": 202611220215,
+  "label": "22.11 02:15",
   "file": "orbita-update.zip",
-  "size": 174682,
-  "sha256": "9040ecc17749ad6404f2582b39b23493a044ee6470389944cce2ec723fde593c",
+  "size": 175132,
+  "sha256": "25edf91da450c900e04647302e7fe89f53d828492e87b3301eb9f2abd7240bfd",
   "notes": [
-    "Фандинг (кнопка F%): ставка на 4 биржах, отсчёт до списания, среднее за 3 дня",
-    "«Что происходит» и «Что делать» — подсказки по фандингу, цене и ОИ",
-    "Предупреждение перед списанием по вашей открытой позиции"
+    "Тейк-профиты 1, 2, 3 и стоп с Gate теперь видны на графике позиции",
+    "Во вкладке «Мои позиции» видно, сколько тейков и есть ли стоп"
   ],
-  "sig": "DPAP2mE5n3Jk82YyVoOwHHKu0WvhdB2k2Ma+V3qehMIkeYl3xyiBo0j2yj/srJNlQhfn238B5Wy4w8SRvuZBDA=="
+  "sig": "IFpzD90Cu3lYNODO+JUhiAibyCtXtS0P2BUohHl0f25PpVlyjtR6CButjx7h8spw18HBa7XCgV3c8tdYWrjEBA=="
 }
