@@ -1,0 +1,12 @@
+{
+  "build": 202611220030,
+  "label": "22.11 00:30",
+  "file": "orbita-update.zip",
+  "size": 168189,
+  "sha256": "58318d3ccf9abab6870d1472e66e103c177332d1b39945121018cfc062567cd8",
+  "notes": [
+    "Стрелки ◀▶ справа у длинной и короткой позиции — делают её шире или уже, тейк и стоп не сдвигаются",
+    "Дополнительные окна показывают список ваших позиций с бирж"
+  ],
+  "sig": "bretIa1Tu3q/GsXVvVcx16ZpiiSUCfeC5V128P5SpF6Bfvk/xxpa5bBTHTRGQs3gvpZ3A+RRjf7U5VwLNzQ3Ag=="
+}
