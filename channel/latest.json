@@ -1,12 +1,13 @@
 {
-  "build": 202611220215,
-  "label": "22.11 02:15",
+  "build": 202611220300,
+  "label": "22.11 03:00",
   "file": "orbita-update.zip",
-  "size": 175132,
-  "sha256": "25edf91da450c900e04647302e7fe89f53d828492e87b3301eb9f2abd7240bfd",
+  "size": 202390,
+  "sha256": "ec9c2a1851843d3ebe8572fa7a1a89d6df940e54d722fc7a7278b6a1eccf4099",
   "notes": [
-    "Тейк-профиты 1, 2, 3 и стоп с Gate теперь видны на графике позиции",
-    "Во вкладке «Мои позиции» видно, сколько тейков и есть ли стоп"
+    "Orbita на телефоне: кнопка с телефоном вверху справа → QR-код → открываете на iPhone",
+    "На телефоне — живые цены, графики, все инструменты; рисунки и списки общие с компьютером",
+    "Пока работает дома, в одной Wi-Fi сети с компьютером"
   ],
-  "sig": "IFpzD90Cu3lYNODO+JUhiAibyCtXtS0P2BUohHl0f25PpVlyjtR6CButjx7h8spw18HBa7XCgV3c8tdYWrjEBA=="
+  "sig": "LN/r9J6euMOGn95s1o3sCOLZ+j7OzfTCLwUHL+9JuO09KFTrKXsJi7Uczejw3i43P6UDzsFOMRjjYaTN6LO5Cg=="
 }
