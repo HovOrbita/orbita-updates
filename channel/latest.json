@@ -1,12 +1,11 @@
 {
-  "build": 202611220405,
-  "label": "22.11 04:05",
+  "build": 202611220415,
+  "label": "22.11 04:15",
   "file": "orbita-update.zip",
-  "size": 205110,
-  "sha256": "f1b3006fc49c6143e0bac3ecec9c0242cb892b514c4dad3fb9425566a5c3f6d9",
+  "size": 205796,
+  "sha256": "80c6037dac4ade52fe9036a95c5d04f1dea26be3d4c2b22c801a363a69cb8f54",
   "notes": [
-    "Телефон: правая колонка убрана — график шире",
-    "Телефон: список наблюдения открывается в поиске монеты вверху; начали печатать — поиск, «+» добавляет в список, «✕» убирает"
+    "Телефон: кнопка «Назад» — вернуть линию или зону на место, если случайно сдвинули; рядом «Вперёд»"
   ],
-  "sig": "/5SciW7fOVAC5ZZzyTUt47RXnUK5C56u8a+TSa4bDg3yLd16wQ4NsMO7+jzC5hT8oewGOfs9wVfUdpVHv2WQBA=="
+  "sig": "Y4dbpQTZxvvxGHx5h6iGGDHodZ/Q+cSQL6epI0AerSlZBxTN6daDd+OHLKf2a33ldvIAZiyKXI6081eHAQGiBw=="
 }
