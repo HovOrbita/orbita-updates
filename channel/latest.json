@@ -1,12 +1,13 @@
 {
-  "build": 202611220115,
-  "label": "22.11 01:15",
+  "build": 202611220130,
+  "label": "22.11 01:30",
   "file": "orbita-update.zip",
-  "size": 168721,
-  "sha256": "48e9cc381358fd3c3c2d39f6f2a925682ccac102a7fbe1e3937bda0b17f901cb",
+  "size": 173091,
+  "sha256": "54864149f44385f4658a75fe43379165c718a561f9402f8fea7775a0b0e6fa6b",
   "notes": [
-    "Стрелки ◀▶ на левой и правой стороне прямоугольника (зоны) и позиции — тянете мышью, зона становится шире или уже",
-    "Углы и остальные ручки работают как раньше"
+    "Фандинг: кнопка F% слева — ставка на Binance, Bybit, OKX и Gate, отсчёт до списания, среднее за 3 дня",
+    "Подсказка: перекос в лонги или шорты и риск сквиза",
+    "Сколько заплатит или получит ваша открытая позиция"
   ],
-  "sig": "5uH2wxA1v24JG8Fk/1V6nHhxJHB31tAetFjMnAkofh3biJ10zn1cnS8GVJyw/DLff5Y/hBgIrQbIifYyCC72Dw=="
+  "sig": "4UILZ7bsR8tQWP/YT6GTETLb1SLRNzhjTKH1U501io/qRSmD6j2cCzwDA45pfZUcLv1i3J0YgH4FCLgEW1M2BQ=="
 }
