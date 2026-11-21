@@ -1,13 +1,12 @@
 {
-  "build": 202611220300,
-  "label": "22.11 03:00",
+  "build": 202611220315,
+  "label": "22.11 03:15",
   "file": "orbita-update.zip",
-  "size": 202390,
-  "sha256": "ec9c2a1851843d3ebe8572fa7a1a89d6df940e54d722fc7a7278b6a1eccf4099",
+  "size": 203641,
+  "sha256": "e1d2f8af3b091b555c78446b86050ad3fdf407bed8abec3961456dbed84ec1c6",
   "notes": [
-    "Orbita на телефоне: кнопка с телефоном вверху справа → QR-код → открываете на iPhone",
-    "На телефоне — живые цены, графики, все инструменты; рисунки и списки общие с компьютером",
-    "Пока работает дома, в одной Wi-Fi сети с компьютером"
+    "Телефон: список наблюдения листается пальцем, перетаскивание строки — долгим нажатием",
+    "Телефон вне дома, через мобильный интернет — с бесплатным Tailscale (инструкция в окне «Телефон»)"
   ],
-  "sig": "LN/r9J6euMOGn95s1o3sCOLZ+j7OzfTCLwUHL+9JuO09KFTrKXsJi7Uczejw3i43P6UDzsFOMRjjYaTN6LO5Cg=="
+  "sig": "0rgsDwUswkWT1hl9Mpbk/wvvIyzmRnMnX+QQKR786hz55eHhlbW2Zkf6Udx5g09FLmhgo4ItuaBVBVOzglX8BA=="
 }
