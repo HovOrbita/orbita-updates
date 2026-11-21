@@ -1,11 +1,11 @@
 {
-  "build": 202611220430,
+  "build": 202611220431,
   "label": "22.11 04:30",
   "file": "orbita-update.zip",
-  "size": 206589,
-  "sha256": "c5b8e02bd7a1a54ff9679259e3796f7524e581a29526ec276694efcb0753bd55",
+  "size": 206600,
+  "sha256": "ba5e8c5e51dcd373428168535ab3d6b2c035716cb16548b3eae62d98d5f88fa7",
   "notes": [
     "Телефон: новый адрес «⚡ …ts.net» — одна иконка для дома и улицы; Tailscale на iPhone может включаться сам (VPN On Demand)"
   ],
-  "sig": "39COgI9lq6miaxCaximHcfmvGdxXbVLF8Zimu8uuZjm5EhtuAHrQbm1ARdYFqLr9TaasD+SdAMHFG1H6ahlcCQ=="
+  "sig": "19VWJQEErhodjF5+f5SmM674Cw8wrAZrJ1barJ+XZXzeRStA7UNWMTJcsy9h1NzMtBD1dnHXgGTWqMpmZseYCQ=="
 }
