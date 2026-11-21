@@ -1,12 +1,11 @@
 {
-  "build": 202611220315,
-  "label": "22.11 03:15",
+  "build": 202611220350,
+  "label": "22.11 03:50",
   "file": "orbita-update.zip",
-  "size": 203641,
-  "sha256": "e1d2f8af3b091b555c78446b86050ad3fdf407bed8abec3961456dbed84ec1c6",
+  "size": 203951,
+  "sha256": "eb08c7f3eaee8046f855d37d4f6eeccb17b1782a1a4ca027204e41e6965e101b",
   "notes": [
-    "Телефон: список наблюдения листается пальцем, перетаскивание строки — долгим нажатием",
-    "Телефон вне дома, через мобильный интернет — с бесплатным Tailscale (инструкция в окне «Телефон»)"
+    "Окно «Телефон»: инструкции для iPhone и Android"
   ],
-  "sig": "0rgsDwUswkWT1hl9Mpbk/wvvIyzmRnMnX+QQKR786hz55eHhlbW2Zkf6Udx5g09FLmhgo4ItuaBVBVOzglX8BA=="
+  "sig": "59nIgapt/JcUlBBFZnCzwDgdOotfsxkr/7DMIsBTCBffNLLNWr23DbMwLhXuREtmduPEyZlbKqYDnHgHIYLJAw=="
 }
