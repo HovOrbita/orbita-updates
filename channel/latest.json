@@ -1,12 +1,13 @@
 {
-  "build": 202611221500,
-  "label": "22.11 15:00",
+  "build": 202611221510,
+  "label": "22.11 15:10",
   "file": "orbita-update.zip",
-  "size": 212677,
-  "sha256": "681c1ae3b83fbc19228b94bff93f4ac3bfaf0da5103d2f3eeae31068efc459c0",
+  "size": 217448,
+  "sha256": "9db142049b054f0f126a9e1f5cbe66825deb8e43dedc839453994e51f6a65178",
   "notes": [
-    "Вход в ваш аккаунт с ноутбука — программой Orbita, не в браузере",
-    "Кнопка 📱 → «Открыть мой аккаунт на ноутбуке»"
+    "Ноутбук работает сам, даже когда основной компьютер выключен",
+    "Рисунки, списки и настройки — общие через OneDrive или Google Диск",
+    "Кнопка 📱 → «Подключить OneDrive»"
   ],
-  "sig": "vgxtNEMDIHQQjVZC4Z24kGzOvFM9ltEzfjPF5AHYFNh91SFAJgT9UjfP6t8x0UvUDNoW5CiVX/XQ0FQLxK7ZAw=="
+  "sig": "uMtASk7mBUVLDyQ74xeNIu3dt58hEUYoTtO5YOx0BWnz+ZJ+tKduMlNiiL10KFDQpxy0EWn4qwnpJTFCmGX2CA=="
 }
