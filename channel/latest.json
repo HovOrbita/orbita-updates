@@ -1,11 +1,11 @@
 {
-  "build": 202611221930,
-  "label": "22.11 19:30",
+  "build": 202611222300,
+  "label": "22.11 23:00",
   "file": "orbita-update.zip",
-  "size": 217770,
-  "sha256": "4f0618c53452f1095a0bbcc2936e8b8814a198e584369ca34530b53cf3949b82",
+  "size": 219006,
+  "sha256": "4d627d5454a6642a986ca2ce74aa3cc058dae697ee9d981f76201f05c541b7f2",
   "notes": [
-    "Программа быстрее: сохранение рисунков и настроек больше не притормаживает"
+    "Пробный период для партнёров: ключ на 30 дней, напоминание за 5 дней"
   ],
-  "sig": "cPqCLz1PqaaBzdL1kqv0C0tdb5U+/wTUt1Jn4RZaysj8il1rIGinC0ncNFoFcrxazwHvyux7IjnPs5TQT4deBg=="
+  "sig": "1RFJwGNlcfLCf3W+ttTHlFUOvl5TqjVE+Q0/sKS1EFYUQywkL9SFjJZ7PVUrynQez8aTzNnRVgJaWh4IYmCCAA=="
 }
