@@ -1,11 +1,13 @@
 {
-  "build": 202611220431,
-  "label": "22.11 04:30",
+  "build": 202611221330,
+  "label": "22.11 13:30",
   "file": "orbita-update.zip",
-  "size": 206600,
-  "sha256": "ba5e8c5e51dcd373428168535ab3d6b2c035716cb16548b3eae62d98d5f88fa7",
+  "size": 208325,
+  "sha256": "83773c03bbb06cb07f7f65c1a5cf21b85da82eccbaef4cf517041bfb0bbee684",
   "notes": [
-    "Телефон: новый адрес «⚡ …ts.net» — одна иконка для дома и улицы; Tailscale на iPhone может включаться сам (VPN On Demand)"
+    "Закрытая сделка с биржи больше не висит «в сделке», даже если на бирже остались лимитки на усреднение",
+    "Линия тейка (или стопа при убытке) встаёт на среднюю цену закрытия с биржи, на графике — «закрыта по … · +$…»",
+    "Голосом: средняя цена закрытия и результат"
   ],
-  "sig": "19VWJQEErhodjF5+f5SmM674Cw8wrAZrJ1barJ+XZXzeRStA7UNWMTJcsy9h1NzMtBD1dnHXgGTWqMpmZseYCQ=="
+  "sig": "nvelCIwCMsHexJtlWZf5pdIaBzyp7PajN7OPZe0atlGdvBWYBSQ6D5cTAywJ7tX0UyOCo6bo18ZkEjZVf6QSCg=="
 }
