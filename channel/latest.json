@@ -1,11 +1,11 @@
 {
-  "build": 202611230130,
-  "label": "23.11 01:30",
+  "build": 202611230145,
+  "label": "23.11 01:45",
   "file": "orbita-update.zip",
-  "size": 193460,
-  "sha256": "7d26f0a6524a03ad2ba67f9caf58415e563aef0ce5aafab90989b83c8b40fe9e",
+  "size": 194043,
+  "sha256": "c719b4f4ca9d402c3803cc9fb9e1e3a31cb47ac327edacefb3111b7df74ce1ca",
   "notes": [
-    "Больше графиков в одном окне: сетки 9, 12, 16, 20 и 24 (6×4)"
+    "Защита данных: при обновлении ключи биржи и список наблюдения больше не могут пропасть (повторные попытки чтения + резервные копии)"
   ],
-  "sig": "Teq9Hg0GGG3Z6COHaSI/M+dTIpGNhCgFbhlUHBR2gGoSSiS7YbD6hH4GyiReAtGENCtWNNqlhB/FXzLe48njDA=="
+  "sig": "MEmaiXavSk4Dil/1LNAhnNeoMpTVarRXQmit8Wg0yNWGWF7Fy9sh+X0v4cNV0oIsGedkWK52ejJSdQm/XCBBAw=="
 }
