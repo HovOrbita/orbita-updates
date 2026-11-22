@@ -1,12 +1,12 @@
 {
-  "build": 202611221415,
-  "label": "22.11 14:15",
+  "build": 202611221430,
+  "label": "22.11 14:30",
   "file": "orbita-update.zip",
-  "size": 210309,
-  "sha256": "f26f9113dbe8cf99736485e0097c7e049f6d74445de357e8a46205c29d43becb",
+  "size": 211127,
+  "sha256": "485bebec3c891bd40f0ba7209d48e5cdc4c51fb1f416509ff38f009ee0795bf5",
   "notes": [
-    "Телефон: шкала цен справа почти вдвое уже — графику больше места (59200.00 → 59200)",
-    "Маленькие графики в раскладках на компьютере тоже получают узкую шкалу"
+    "Телефон: панель инструментов перенесена вниз — график на всю ширину экрана",
+    "Телефон: таймфреймы спрятаны в одну кнопку сверху — нажали, выбрали из списка"
   ],
-  "sig": "h/OvtCQePRKFDGUqqSX99AOK/Sw32sEkdzbdYeECI+bVtlUIzGIJXee/VRd1/Cka2PWxcYrDNLjAPmuMvn/kBQ=="
+  "sig": "EEvQXtsHNYxIZ5tEQK8K88GKdO3hAer2XTdFGnksr8eIMpfFcPqsIS1Lvnbda0x5O2seT8GGr3Vx67OVhhsRAA=="
 }
