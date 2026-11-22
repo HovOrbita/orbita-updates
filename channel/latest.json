@@ -1,12 +1,12 @@
 {
-  "build": 202611221440,
-  "label": "22.11 14:40",
+  "build": 202611221500,
+  "label": "22.11 15:00",
   "file": "orbita-update.zip",
-  "size": 211422,
-  "sha256": "16b02c41e8a3b8f359958351e5783252dec07afa66a9acb488c29c64c858caf9",
+  "size": 212677,
+  "sha256": "681c1ae3b83fbc19228b94bff93f4ac3bfaf0da5103d2f3eeae31068efc459c0",
   "notes": [
-    "Телефон: AI без правой кнопки — нажмите AI ещё раз: «Обновить разметку» или «Убрать разметку»",
-    "Телефон: сообщения появляются сверху и не закрывают инструменты; «Назад» перенесена вправо и не закрывает подписи индикаторов"
+    "Вход в ваш аккаунт с ноутбука — программой Orbita, не в браузере",
+    "Кнопка 📱 → «Открыть мой аккаунт на ноутбуке»"
   ],
-  "sig": "I6VFsmzpvCIrX9JQuBeQEaYl0u/YZq4zMyMIXQj9H1ErV+aYZDX2M3E6fipM3nVCk9GfL25H7nwASFt9J73fAQ=="
+  "sig": "vgxtNEMDIHQQjVZC4Z24kGzOvFM9ltEzfjPF5AHYFNh91SFAJgT9UjfP6t8x0UvUDNoW5CiVX/XQ0FQLxK7ZAw=="
 }
