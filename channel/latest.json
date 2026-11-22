@@ -1,13 +1,11 @@
 {
-  "build": 202611221510,
-  "label": "22.11 15:10",
+  "build": 202611221930,
+  "label": "22.11 19:30",
   "file": "orbita-update.zip",
-  "size": 217448,
-  "sha256": "9db142049b054f0f126a9e1f5cbe66825deb8e43dedc839453994e51f6a65178",
+  "size": 217770,
+  "sha256": "4f0618c53452f1095a0bbcc2936e8b8814a198e584369ca34530b53cf3949b82",
   "notes": [
-    "Ноутбук работает сам, даже когда основной компьютер выключен",
-    "Рисунки, списки и настройки — общие через OneDrive или Google Диск",
-    "Кнопка 📱 → «Подключить OneDrive»"
+    "Программа быстрее: сохранение рисунков и настроек больше не притормаживает"
   ],
-  "sig": "uMtASk7mBUVLDyQ74xeNIu3dt58hEUYoTtO5YOx0BWnz+ZJ+tKduMlNiiL10KFDQpxy0EWn4qwnpJTFCmGX2CA=="
+  "sig": "cPqCLz1PqaaBzdL1kqv0C0tdb5U+/wTUt1Jn4RZaysj8il1rIGinC0ncNFoFcrxazwHvyux7IjnPs5TQT4deBg=="
 }
