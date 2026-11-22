@@ -1,11 +1,11 @@
 {
-  "build": 202611222300,
-  "label": "22.11 23:00",
+  "build": 202611222330,
+  "label": "22.11 23:30",
   "file": "orbita-update.zip",
-  "size": 219006,
-  "sha256": "4d627d5454a6642a986ca2ce74aa3cc058dae697ee9d981f76201f05c541b7f2",
+  "size": 193341,
+  "sha256": "036a9a242eba78be1e2ab89ce4d02fa785c1bf785582a334ff513e38581f139a",
   "notes": [
-    "Пробный период для партнёров: ключ на 30 дней, напоминание за 5 дней"
+    "Защита кода (запутывание) и короткое соглашение при первом запуске продажной версии"
   ],
-  "sig": "1RFJwGNlcfLCf3W+ttTHlFUOvl5TqjVE+Q0/sKS1EFYUQywkL9SFjJZ7PVUrynQez8aTzNnRVgJaWh4IYmCCAA=="
+  "sig": "TUAseE/iFzQmF7Wxj2QMv6+cDQDlS4zWBuchEtzYkP20zyjNHqitAMur6+Bi46TdJIxYqdA9hOTzzGFM3LOTDA=="
 }
