@@ -1,0 +1,8 @@
+{
+  "name": "orbita-setup",
+  "private": true,
+  "devDependencies": {
+    "electron": "^37.0.0",
+    "electron-builder": "^26.0.0"
+  }
+}

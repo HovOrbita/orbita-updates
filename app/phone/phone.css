@@ -1,0 +1,97 @@
+/* Orbita на телефоне — этап 1: та же программа, приспособленная к маленькому экрану */
+html.phone, html.phone body { height: 100%; overflow: hidden; overscroll-behavior: none; -webkit-text-size-adjust: 100%; }
+html.phone #app { height: 100dvh; padding-top: env(safe-area-inset-top); padding-bottom: env(safe-area-inset-bottom); box-sizing: border-box; }
+
+/* верхняя панель прокручивается пальцем вбок */
+html.phone #topbar { overflow-x: auto; overflow-y: hidden; scrollbar-width: none; -webkit-overflow-scrolling: touch; padding-left: max(6px, env(safe-area-inset-left)); }
+html.phone #topbar::-webkit-scrollbar { display: none; }
+html.phone #topbar > * { flex-shrink: 0; }
+html.phone #topbar .grow { min-width: 6px; flex: 0 0 6px; }
+/* на телефоне не нужны: новое окно, полный экран, музыка */
+html.phone #winBtn, html.phone #fsBtn, html.phone #musicBtn, html.phone #updBtn, html.phone #side-resizer { display: none !important; }
+
+
+/* боковая панель (список, позиции, оповещения) открывается поверх графика на весь экран */
+html.phone #side-rail { width: 40px; }
+html.phone #side-rail button { width: 34px; height: 36px; }
+html.phone #side-body { position: fixed; z-index: 40; top: calc(46px + env(safe-area-inset-top)); bottom: env(safe-area-inset-bottom); left: 0; right: 40px; width: auto !important; background: var(--panel); box-shadow: 0 0 30px rgba(0,0,0,.5); }
+
+/* карточки ОИ и фандинга — компактнее */
+html.phone .side-cards { right: calc(var(--axw, 60px) + 4px); top: 30px; }
+html.phone .oi-card { min-width: 0; max-width: min(270px, 70vw); font-size: 11.5px; }
+
+/* окна настроек — по ширине экрана */
+html.phone .modal { max-width: calc(100vw - 16px) !important; max-height: calc(100dvh - 60px); }
+
+/* крупнее зоны нажатия */
+html.phone .tb { min-height: 36px; }
+html.phone .wl-row { min-height: 40px; }
+
+/* плашка «нет связи с компьютером» */
+#phoneBanner { position: fixed; z-index: 9999; left: 8px; right: 8px; top: calc(50px + env(safe-area-inset-top)); padding: 10px 12px; border-radius: 10px;
+  background: #3a1d24; color: #ffd6dc; border: 1px solid #f0556a; font: 13px/1.4 system-ui, -apple-system, sans-serif; box-shadow: 0 6px 24px rgba(0,0,0,.4); }
+html.phone #favbar { display: none !important; }
+/* список прокручивается пальцем; строку можно перетащить после долгого нажатия */
+html.phone .wl-row { touch-action: pan-y; -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
+html.phone #side-body { overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; }
+.wl-row.armed { background: var(--accent-soft, rgba(79,179,255,.15)); }
+
+/* правая колонка (список наблюдения и вкладки) на телефоне не нужна — список открывается из поиска монеты вверху */
+html.phone #side { display: none !important; }
+
+/* поиск монеты на телефоне: почти во весь экран, без лишних колонок */
+html.phone .sym-phone .modal, html.phone .modal:has(.sym-list) { width: calc(100vw - 12px) !important; max-width: none !important; max-height: calc(100dvh - 24px - env(safe-area-inset-top)); }
+html.phone .sym-list { max-height: calc(100dvh - 230px); -webkit-overflow-scrolling: touch; }
+html.phone .sym-row { grid-template-columns: 1fr auto 82px 62px 30px; gap: 6px; padding: 11px 12px; }
+html.phone .sym-row > .muted { display: none; }
+html.phone .sym-row.wlm { grid-template-columns: 1fr 90px 66px 30px; }
+html.phone .sym-row .s { display: flex; align-items: center; gap: 7px; min-width: 0; }
+html.phone .sym-row .wl-av { width: 22px; height: 22px; font-size: 11px; flex-shrink: 0; }
+html.phone .wlm-h { padding: 6px 12px 8px; font-weight: 600; font-size: 13px; }
+html.phone .wlm-h .muted { font-weight: 400; font-size: 12px; }
+html.phone .wlm-add, html.phone .wlm-x { width: 30px; height: 30px; font-size: 18px; color: var(--accent); }
+html.phone .wlm-add.on { color: var(--up, #22c39a); }
+html.phone .wlm-x { color: var(--text-dim); }
+html.phone .ex-tabs { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+html.phone .ex-tabs::-webkit-scrollbar { display: none; }
+html.phone .ex-tabs button { flex-shrink: 0; }
+html.phone .search-box .inp { font-size: 16px; } /* iPhone не увеличивает страницу при вводе */
+html.phone .modal-wrap { padding-top: calc(10px + env(safe-area-inset-top)); }
+
+/* кнопки «Назад / Вперёд» для рисунков — появляются, когда есть что отменить */
+#phUndo { position: fixed; z-index: 35; right: calc(var(--axw, 41px) + 14px); bottom: calc(86px + env(safe-area-inset-bottom)); display: none; gap: 6px; }
+#phUndo.show { display: flex; }
+#phUndo button { display: flex; align-items: center; gap: 6px; height: 38px; padding: 0 12px; border-radius: 19px; background: rgba(20,26,38,.92); color: var(--text, #e6ebf2);
+  border: 1px solid var(--border, #263042); box-shadow: 0 4px 16px rgba(0,0,0,.4); font: 600 14px/1 system-ui, -apple-system, sans-serif; -webkit-tap-highlight-color: transparent; }
+#phUndo button[data-u="redo"] { padding: 0 12px; }
+#phUndo button:disabled { opacity: .35; }
+#phUndo button:active:not(:disabled) { transform: scale(.96); }
+
+/* жесты на графике: без выделения текста и системного меню при долгом нажатии */
+html.phone .cell, html.phone .cell canvas { -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
+
+/* ===== панель инструментов внизу — график на всю ширину ===== */
+html.phone #app { padding-bottom: 0; }
+html.phone #main { grid-template-columns: 1fr; grid-template-rows: minmax(0, 1fr) auto; }
+html.phone #center { grid-row: 1; grid-column: 1; min-width: 0; }
+html.phone #tools { grid-row: 2; grid-column: 1; flex-direction: row; align-items: center; gap: 2px;
+  overflow-x: auto; overflow-y: hidden; scrollbar-width: none; -webkit-overflow-scrolling: touch; overscroll-behavior-x: contain;
+  border-right: 0; border-top: 1px solid var(--border); padding: 4px 6px calc(4px + env(safe-area-inset-bottom)); }
+html.phone #tools::-webkit-scrollbar { display: none; }
+html.phone #tools > * { flex-shrink: 0; }
+html.phone #tools .tgroup { width: 42px; }
+html.phone #tools .tbtn { width: 40px; height: 40px; }
+html.phone #tools .tsep { width: 1px; height: 26px; margin: 0 4px; background: var(--border); }
+html.phone #tools .grow { min-height: 0; min-width: 6px; flex: 0 0 6px; }
+
+/* ===== таймфрейм — одна кнопка-«папка» ===== */
+html.phone #ivMore { display: none !important; }
+html.phone .tf-fold { display: inline-flex; align-items: center; gap: 4px; min-width: 52px; justify-content: center; font-weight: 600; }
+html.phone .menu.tf-menu { max-height: min(62dvh, 460px); overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; min-width: 190px; }
+html.phone .menu.tf-menu .menu-item { min-height: 44px; font-size: 15px; }
+html.phone .menu.popover { max-height: 60dvh; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+html.phone .menu.popover .menu-item { min-height: 42px; }
+
+/* всплывающие сообщения — сверху, чтобы не закрывали панель инструментов */
+html.phone #toasts { top: calc(54px + env(safe-area-inset-top)); bottom: auto; left: 8px; right: 8px; align-items: stretch; }
+html.phone .toast { max-width: none; }

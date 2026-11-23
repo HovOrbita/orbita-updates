@@ -1,0 +1,48 @@
+{
+  "name": "orbita-terminal",
+  "productName": "Orbita Trading",
+  "version": "0.1.0",
+  "description": "Orbita Terminal — десктопная платформа для графиков, индикаторов, оповещений и бумажной торговли на данных Binance",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder",
+    "dist:win": "electron-builder --win",
+    "dist:mac": "electron-builder --mac",
+    "dist:linux": "electron-builder --linux"
+  },
+  "devDependencies": {
+    "electron": "^37.0.0",
+    "electron-builder": "^26.0.0"
+  },
+  "build": {
+    "appId": "com.orbita.terminal",
+    "productName": "Orbita Trading",
+    "files": [
+      "main.js",
+      "preload.js",
+      "accounts-main.js",
+      "updater.js",
+      "mobile-server.js",
+      "sync-main.js",
+      "vendor/**/*",
+      "phone/**/*",
+      "src/**/*",
+      "account-main.js"
+    ],
+    "win": {
+      "target": "nsis"
+    },
+    "mac": {
+      "target": "dmg",
+      "category": "public.app-category.finance"
+    },
+    "linux": {
+      "target": "AppImage",
+      "category": "Finance"
+    }
+  },
+  "orbitaBuild": 202611232320,
+  "orbitaBuildLabel": "23.11 23:20",
+  "orbitaUpdates": "HovOrbita/orbita-updates"
+}

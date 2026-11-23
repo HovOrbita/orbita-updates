@@ -1,0 +1,33 @@
+appId: com.orbita.terminal
+productName: Orbita Trading
+copyright: Orbita Trading
+directories:
+  app: app
+  output: dist
+  buildResources: build
+asar: false            # обновления пишутся прямо в папку программы
+files:
+  - "**/*"
+  - "!**/*.on"
+win:
+  target:
+    - target: nsis
+      arch: [x64]
+  icon: build/icon.ico
+  artifactName: Orbita-Trading-Setup.${ext}
+nsis:
+  oneClick: false
+  perMachine: false            # в папку пользователя: без прав администратора, обновления работают
+  allowElevation: false
+  allowToChangeInstallationDirectory: false
+  createDesktopShortcut: always
+  createStartMenuShortcut: true
+  shortcutName: Orbita Trading
+  uninstallDisplayName: Orbita Trading
+  runAfterFinish: true
+  deleteAppDataOnUninstall: false   # список, ключи и рисунки остаются
+  installerIcon: build/icon.ico
+  uninstallerIcon: build/icon.ico
+  installerLanguages: [ru_RU, en_US]
+  language: "1049"
+  multiLanguageInstaller: false

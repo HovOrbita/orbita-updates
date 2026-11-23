@@ -1,0 +1,2 @@
+QRCode for JavaScript — Copyright (c) 2009 Kazuhiko Arase, MIT license.
+Packaged in qrcode-terminal (Apache License 2.0).
