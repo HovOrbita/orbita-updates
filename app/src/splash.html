@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+<title>Orbita Trading</title>
+<style>
+  html, body { margin: 0; height: 100%; background: transparent; overflow: hidden; user-select: none; -webkit-app-region: drag; cursor: default; }
+  body { display: flex; align-items: center; justify-content: center; font-family: "Segoe UI Variable Display", "Segoe UI", Inter, system-ui, sans-serif; }
+  .card {
+    position: relative; width: 500px; height: 340px; border-radius: 22px; overflow: hidden;
+    background: radial-gradient(120% 90% at 50% 38%, #142238 0%, #0b1018 58%, #080b11 100%);
+    box-shadow: 0 0 0 1px rgba(120,170,255,.10) inset;
+    opacity: 0; transform: scale(.96);
+    animation: cardIn .45s cubic-bezier(.2,.8,.2,1) forwards, cardOut .45s cubic-bezier(.4,0,.2,1) 2.75s forwards;
+  }
+  @keyframes cardIn { to { opacity: 1; transform: scale(1); } }
+  @keyframes cardOut { to { opacity: 0; transform: scale(1.04); filter: blur(2px); } }
+  canvas#stars { position: absolute; inset: 0; }
+  svg#logo { position: absolute; left: 50%; top: 40px; width: 220px; height: 180px; transform: translateX(-50%); overflow: visible; }
+
+  .glow { transform-origin: 110px 90px; transform: scale(0); opacity: 0; animation: glowIn 1.1s ease-out .15s forwards; }
+  @keyframes glowIn { 60% { opacity: .9; } to { transform: scale(1); opacity: .55; } }
+  .planet { transform-origin: 110px 90px; transform: scale(0); animation: pop .7s cubic-bezier(.3,1.6,.5,1) .2s forwards; }
+  @keyframes pop { to { transform: scale(1); } }
+  .ring { stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw .85s cubic-bezier(.6,0,.2,1) .45s forwards; }
+  @keyframes draw { to { stroke-dashoffset: 0; } }
+
+  .title { position: absolute; left: 0; right: 0; top: 228px; text-align: center; color: #e9f1ff; font-size: 36px; font-weight: 600; letter-spacing: .5px; }
+  .title span { display: inline-block; opacity: 0; transform: translateY(14px); filter: blur(4px); animation: letter .55s cubic-bezier(.2,.8,.2,1) forwards; }
+  @keyframes letter { to { opacity: 1; transform: none; filter: none; } }
+  .sub { position: absolute; left: 0; right: 0; top: 278px; text-align: center; color: #4da8ff; font-size: 13px; font-weight: 600; letter-spacing: 2px; opacity: 0; animation: sub .8s ease-out 1.55s forwards; }
+  @keyframes sub { to { opacity: 1; letter-spacing: 9px; } }
+  .shine { position: absolute; top: 226px; height: 46px; width: 70px; left: 90px; opacity: 0; background: linear-gradient(100deg, rgba(255,255,255,0), rgba(255,255,255,.16), rgba(255,255,255,0)); transform: skewX(-18deg); animation: shine .75s ease-in-out 1.8s forwards; mix-blend-mode: screen; }
+  @keyframes shine { 15% { opacity: 1; } 85% { opacity: 1; } to { left: 360px; opacity: 0; } }
+</style>
+</head>
+<body>
+  <div class="card">
+    <canvas id="stars" width="1000" height="680"></canvas>
+    <svg id="logo" viewBox="0 0 220 180">
+      <defs>
+        <radialGradient id="g" cx="50%" cy="50%" r="50%">
+          <stop offset="0" stop-color="#4da8ff" stop-opacity=".55"/>
+          <stop offset="1" stop-color="#4da8ff" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="pl" cx="38%" cy="34%" r="70%">
+          <stop offset="0" stop-color="#8cc8ff"/>
+          <stop offset=".55" stop-color="#4da8ff"/>
+          <stop offset="1" stop-color="#2a74d6"/>
+        </radialGradient>
+        <radialGradient id="mg" cx="50%" cy="50%" r="50%">
+          <stop offset="0" stop-color="#26c485" stop-opacity=".7"/>
+          <stop offset="1" stop-color="#26c485" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <circle class="glow" cx="110" cy="90" r="78" fill="url(#g)"/>
+      <!-- задняя половина орбиты и луна за планетой -->
+      <g transform="rotate(-28 110 90)">
+        <path class="ring" pathLength="1" d="M 14 90 A 96 38 0 0 1 206 90" fill="none" stroke="#4da8ff" stroke-width="7" stroke-linecap="round" opacity=".9"/>
+        <g id="back"></g>
+      </g>
+      <circle class="planet" cx="110" cy="90" r="34" fill="url(#pl)"/>
+      <!-- передняя половина орбиты и луна перед планетой -->
+      <g transform="rotate(-28 110 90)">
+        <path class="ring" pathLength="1" d="M 206 90 A 96 38 0 0 1 14 90" fill="none" stroke="#4da8ff" stroke-width="7" stroke-linecap="round"/>
+        <g id="front"></g>
+      </g>
+    </svg>
+    <div class="title" id="title">Orbita Trading</div>
+    <div class="sub">CRYPTO TERMINAL</div>
+    <div class="shine"></div>
+  </div>
+<script src="splash.js"></script>
+</body>
+</html>
