@@ -1,12 +1,11 @@
 {
-  "build": 202611232340,
-  "label": "23.11 23:40",
+  "build": 202611240100,
+  "label": "24.11 01:00",
   "file": "orbita-update.zip",
-  "size": 206529,
-  "sha256": "b6b5fb7239bbcd4e88335e0cb64cd50dd4004baa8a739308d459ef389c267977",
+  "size": 215244,
+  "sha256": "865abdb66a17c5ebb293b25ab9458c727dc881c49a122e00c4302183e588d7c9",
   "notes": [
-    "Заставка с логотипом Orbita Trading при запуске",
-    "Новое название в окне: Orbita Trading"
+    "Дневник трейдера (пробная версия): прибыль и убыток по дням в календаре, итоги месяца, сделки и заметки"
   ],
-  "sig": "gT0gLQQ2B4iABUuOi/CkeBx4yLEwYoHJ3rQqaQ/L8bNYvRYwlzeusCdXmws1wlBOtq61vzPmv+AKlT/lwaVmAQ=="
+  "sig": "mZbkLBO0rVZrnlqrUjUJ0wJe9Z2Kim5Lzl1/TRuSdryXkpExZxdN3KYO7YIslIEwdVWqRLE7VsFYu75rW6uBBA=="
 }
