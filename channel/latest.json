@@ -1,11 +1,11 @@
 {
-  "build": 202611231350,
-  "label": "23.11 13:50",
+  "build": 202611231405,
+  "label": "23.11 14:05",
   "file": "orbita-update.zip",
-  "size": 194643,
-  "sha256": "fcb1de82b610b7238e2d08822b8ebec73cf6f72614db348460ad6572cc8409dd",
+  "size": 194151,
+  "sha256": "71f0f97b5883f8d752270a01ec925f622e7ebad3dd5456f0a004681b92089d39",
   "notes": [
-    "Выбор раскладки сделан сеткой иконок — все варианты (до 64) видны сразу, без прокрутки"
+    "Список наблюдения без ограничения: можно добавлять сколько угодно монет (для длинного списка цены берутся общим запросом). Сетка графиков — снова до 10."
   ],
-  "sig": "CleF9cbAXKdh+wmyEYbBjVR7MQxENOxXP6HwstLYm8SBtzLNdfXzPSdTusBpVqeo+GSB3ZduwzL93mj4piU1DQ=="
+  "sig": "+iKoaKvGCBWViW6YlGuuR8GnM6bNooALYGjsMMtEG5OAG4ADqzFI8QIoosLIRKExAR5VREt83z0hbIpzlX7uBg=="
 }
