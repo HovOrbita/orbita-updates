@@ -1,11 +1,12 @@
 {
-  "build": 202611231645,
-  "label": "23.11 16:45",
+  "build": 202611232340,
+  "label": "23.11 23:40",
   "file": "orbita-update.zip",
-  "size": 194399,
-  "sha256": "e11cd64742bd8ca60a671b446ee63745d701ea31fa8d5cc3f10c5ff9fd6d5e4e",
+  "size": 206529,
+  "sha256": "b6b5fb7239bbcd4e88335e0cb64cd50dd4004baa8a739308d459ef389c267977",
   "notes": [
-    "Список наблюдения: кнопка + и заголовки столбцов теперь всегда наверху при прокрутке — не нужно листать обратно, чтобы добавить монету"
+    "Заставка с логотипом Orbita Trading при запуске",
+    "Новое название в окне: Orbita Trading"
   ],
-  "sig": "q27jAP3gzT/SfrBn6YK3dzmH97zZbJic6FHKi64VxujBJgI1F7g1h7Jo31WXSbUQKYvgy5sA6OSx+eVWg5ODDg=="
+  "sig": "gT0gLQQ2B4iABUuOi/CkeBx4yLEwYoHJ3rQqaQ/L8bNYvRYwlzeusCdXmws1wlBOtq61vzPmv+AKlT/lwaVmAQ=="
 }
