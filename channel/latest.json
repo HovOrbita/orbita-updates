@@ -1,11 +1,11 @@
 {
-  "build": 202611240100,
-  "label": "24.11 01:00",
+  "build": 202611240130,
+  "label": "24.11 01:30",
   "file": "orbita-update.zip",
-  "size": 215244,
-  "sha256": "865abdb66a17c5ebb293b25ab9458c727dc881c49a122e00c4302183e588d7c9",
+  "size": 218969,
+  "sha256": "4735ff916b293d7069398e5444a655d0b1ccbb19bda911f61747b9f41bdbb932",
   "notes": [
-    "Дневник трейдера (пробная версия): прибыль и убыток по дням в календаре, итоги месяца, сделки и заметки"
+    "Дневник: снимки графика на 15 минутах и 1 часе сами сохраняются при закрытии сделки"
   ],
-  "sig": "mZbkLBO0rVZrnlqrUjUJ0wJe9Z2Kim5Lzl1/TRuSdryXkpExZxdN3KYO7YIslIEwdVWqRLE7VsFYu75rW6uBBA=="
+  "sig": "pghuWPvxiaY4uNPkEeyzLP0gzdfQDzmHobCKhHVmRu/MuNEKCO9P1lpysdiR+WxgKLJBb7SKQstjkJJnDV4cAg=="
 }
