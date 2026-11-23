@@ -1,11 +1,11 @@
 {
-  "build": 202611231510,
-  "label": "23.11 15:10",
+  "build": 202611231645,
+  "label": "23.11 16:45",
   "file": "orbita-update.zip",
-  "size": 194321,
-  "sha256": "548d3014b559029f20dcf9b69d2b3c57ebc76ccb909eeb50598e882220fb2d86",
+  "size": 194399,
+  "sha256": "e11cd64742bd8ca60a671b446ee63745d701ea31fa8d5cc3f10c5ff9fd6d5e4e",
   "notes": [
-    "Исправлено: в пустой ячейке раскладки график не открывался по клику — теперь открывается"
+    "Список наблюдения: кнопка + и заголовки столбцов теперь всегда наверху при прокрутке — не нужно листать обратно, чтобы добавить монету"
   ],
-  "sig": "ob/da04FvWV99Oozh/S7UZMQZVPx/MEAwJVOUT+qBFRR4y+vofA2paoHa7fAxKai77oIUUm+IPzyGHC+WRHvDA=="
+  "sig": "q27jAP3gzT/SfrBn6YK3dzmH97zZbJic6FHKi64VxujBJgI1F7g1h7Jo31WXSbUQKYvgy5sA6OSx+eVWg5ODDg=="
 }
