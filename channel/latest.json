@@ -1,11 +1,11 @@
 {
-  "build": 202611251830,
-  "label": "25.11 18:30",
+  "build": 202611251845,
+  "label": "25.11 18:45",
   "file": "orbita-update.zip",
-  "size": 238515,
-  "sha256": "eab87aa51aad66f4b54fbea647e91c3fb2f3513b77b687bbf61ba99e6b49cbe6",
+  "size": 238704,
+  "sha256": "a6e6c63f315e6537f46ebc62283f081057fd9179b5112c95f5d91bd4f9abc21c",
   "notes": [
-    "Ассистент: сколько процентов до тейка и до стопа; HYPE и монеты, которых нет в общем списке"
+    "Ассистент лучше понимает «до тейка» и «сколько осталось»; если не понял — говорит, что услышал"
   ],
-  "sig": "P/V9T5h3iGqpAYX6Z3QS2QWhBsycVdeJKjBxDSg36SOOpQjKfykDRo/wKKbjMmYURybQgJ753plDxzm7FcbQCA=="
+  "sig": "H6zWLWpZTA++ad8oJozaoGgBl3Ihf/cBIrhGWh8DZjqHUbp5l3p97/sEz/kFdx0B01e+On2RyMrAlh1TWOZeAw=="
 }
