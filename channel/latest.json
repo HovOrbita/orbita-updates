@@ -1,11 +1,11 @@
 {
-  "build": 202611240130,
-  "label": "24.11 01:30",
+  "build": 202611251700,
+  "label": "25.11 17:00",
   "file": "orbita-update.zip",
-  "size": 218969,
-  "sha256": "4735ff916b293d7069398e5444a655d0b1ccbb19bda911f61747b9f41bdbb932",
+  "size": 232289,
+  "sha256": "281b1c035cca36c432e0572c65da9dd4963a058a2d2bba3bd6973c830eb6255b",
   "notes": [
-    "Дневник: снимки графика на 15 минутах и 1 часе сами сохраняются при закрытии сделки"
+    "Голосовой ассистент «Орбита»: скажите «Орбита» и вопрос — цены, позиции, итог дня, фандинг, календарь, команды"
   ],
-  "sig": "pghuWPvxiaY4uNPkEeyzLP0gzdfQDzmHobCKhHVmRu/MuNEKCO9P1lpysdiR+WxgKLJBb7SKQstjkJJnDV4cAg=="
+  "sig": "2WuFwVR+DY19U0dbeQqzXYNt14W/fW7zDevZGVdhiYss+1IOrgrfy9rnsYgqeYRBUlLaFqSMD2aaQ7ozqdsGCw=="
 }
