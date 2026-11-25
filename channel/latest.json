@@ -1,11 +1,11 @@
 {
-  "build": 202611252110,
-  "label": "25.11 21:10",
+  "build": 202611252130,
+  "label": "25.11 21:30",
   "file": "orbita-update.zip",
-  "size": 245366,
-  "sha256": "f3c13e4d368bee7097ea837c8a7e7672dcc8ac8e2ff78278cccf2607ff88d2f0",
+  "size": 246746,
+  "sha256": "9ef60cb1a0641e1c761ec9b7c869fdc9f53373d55771d8ed10e0c40af89e02a3",
   "notes": [
-    "Ассистент: режим словаря — монеты распознаются точно; любую монету можно назвать по буквам"
+    "Ассистент: «Орбита, карта ликвидаций по биткоину» — где скопления ликвидаций сверху и снизу и куда может тянуть цену"
   ],
-  "sig": "g/bTR6Zci1ugOjTskm8eDSVHvQe1hu+HF9h++XJWCSWwuoV1OCqqiF43M0U5601Ci9IDW9v5zlNX4pejlEiIDQ=="
+  "sig": "eaeCpJQGOeD8OWFmAZNbwKuoJ5EUJcyxmRYE/I4gTHZbZ5xhWoGaTngz0ytiMPCq6Y59rtkY5v0ey47S6FcVDQ=="
 }
