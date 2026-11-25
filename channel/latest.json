@@ -1,11 +1,11 @@
 {
-  "build": 202611251810,
-  "label": "25.11 18:10",
+  "build": 202611251830,
+  "label": "25.11 18:30",
   "file": "orbita-update.zip",
-  "size": 237353,
-  "sha256": "6b867fc0fc2343a9e8a0182a65bb5d75f0af0a94b3914fdfae995b7ef0c67c0f",
+  "size": 238515,
+  "sha256": "eab87aa51aad66f4b54fbea647e91c3fb2f3513b77b687bbf61ba99e6b49cbe6",
   "notes": [
-    "Ассистент: фандинг по любой монете (Binance, Bybit, Gate, OKX) и время до выплаты; не замолкает, если биржа не отвечает"
+    "Ассистент: сколько процентов до тейка и до стопа; HYPE и монеты, которых нет в общем списке"
   ],
-  "sig": "ncIO3TLmTTOhdsETowtu+Jiol9tyse56eECSj35FK7bYQBabUP62U6NHThpDVw715IN4tTSDr9iFK6P2P4wbCA=="
+  "sig": "P/V9T5h3iGqpAYX6Z3QS2QWhBsycVdeJKjBxDSg36SOOpQjKfykDRo/wKKbjMmYURybQgJ753plDxzm7FcbQCA=="
 }
