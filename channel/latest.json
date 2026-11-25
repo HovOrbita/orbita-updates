@@ -1,11 +1,11 @@
 {
-  "build": 202611251755,
-  "label": "25.11 17:55",
+  "build": 202611251810,
+  "label": "25.11 18:10",
   "file": "orbita-update.zip",
-  "size": 236994,
-  "sha256": "de9eb156941926328cb1a4659befb7461c0e6809aed03e0b44fac40110ac3ec5",
+  "size": 237353,
+  "sha256": "6b867fc0fc2343a9e8a0182a65bb5d75f0af0a94b3914fdfae995b7ef0c67c0f",
   "notes": [
-    "Ассистент работает с любыми монетами: ~100 названий по-русски, узнавание по звучанию, открытый интерес на Binance, Bybit и Gate"
+    "Ассистент: фандинг по любой монете (Binance, Bybit, Gate, OKX) и время до выплаты; не замолкает, если биржа не отвечает"
   ],
-  "sig": "LTIGDxKMd81bF0IttIo5qp3N8JN96FDKxZ92mWrdyj4Iz0psFAOGVleSSt6hpf0SV0+UE/3DII1mPTvXj2v+DQ=="
+  "sig": "ncIO3TLmTTOhdsETowtu+Jiol9tyse56eECSj35FK7bYQBabUP62U6NHThpDVw715IN4tTSDr9iFK6P2P4wbCA=="
 }
