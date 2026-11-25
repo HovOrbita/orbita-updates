@@ -1,11 +1,11 @@
 {
-  "build": 202611252015,
-  "label": "25.11 20:15",
+  "build": 202611252030,
+  "label": "25.11 20:30",
   "file": "orbita-update.zip",
-  "size": 242679,
-  "sha256": "63799a9cbfb0727d57608d149b874ce26c79df7e76203c40bb6563dd0258110b",
+  "size": 243122,
+  "sha256": "9a5e37168a55bacd6440c485a01c386019eb133d780c7477a0d1bbed1c83cb94",
   "notes": [
-    "Gate: если основной адрес не отвечает — запасной адрес Gate для фьючерсов и повтор"
+    "Ассистент открывает монеты из списка наблюдения сразу (даже если биржа не отвечает); выученные слова срабатывают на похожие варианты; PUMP = «насос»"
   ],
-  "sig": "oEiNwOQhNNwWdpO55nIp09pGx2VnASCR+rbPg0Pfp2vZm7ff3SMoJr5xx/bZJzXCeK7jSgN4Zc0oK68sLrj6Dw=="
+  "sig": "BDpE569QfAKaRskvyMtaW1ZWyp1trdene/ZX8M8GOtGNAQOmKuQygBHtZW6tRvIbiGPHTF66ro2R3uJB6PBIBA=="
 }
