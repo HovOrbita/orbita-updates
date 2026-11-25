@@ -1,11 +1,11 @@
 {
-  "build": 202611252000,
-  "label": "25.11 20:00",
+  "build": 202611252015,
+  "label": "25.11 20:15",
   "file": "orbita-update.zip",
-  "size": 242419,
-  "sha256": "825531bf714e84d864c312590ccce3bcace0e2c71b897a5026102a67124c31dd",
+  "size": 242679,
+  "sha256": "63799a9cbfb0727d57608d149b874ce26c79df7e76203c40bb6563dd0258110b",
   "notes": [
-    "Быстрее: ассистент нагружает компьютер в разы меньше, не скачивает списки монет на каждый вопрос"
+    "Gate: если основной адрес не отвечает — запасной адрес Gate для фьючерсов и повтор"
   ],
-  "sig": "czApKcwTLPkxjqI449RZY4nnJn+IedUFEVFF4Jj4CkMJMVtQzC6RNmwxy9pMwcy10vz+uMjL2dHJLFTEJybvDg=="
+  "sig": "oEiNwOQhNNwWdpO55nIp09pGx2VnASCR+rbPg0Pfp2vZm7ff3SMoJr5xx/bZJzXCeK7jSgN4Zc0oK68sLrj6Dw=="
 }
