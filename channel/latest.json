@@ -1,11 +1,11 @@
 {
-  "build": 202611251845,
-  "label": "25.11 18:45",
+  "build": 202611251900,
+  "label": "25.11 19:00",
   "file": "orbita-update.zip",
-  "size": 238704,
-  "sha256": "a6e6c63f315e6537f46ebc62283f081057fd9179b5112c95f5d91bd4f9abc21c",
+  "size": 240109,
+  "sha256": "2eedd88de2cadcc2ea7848a51579d351894285073687163db015bc77767b0e82",
   "notes": [
-    "Ассистент лучше понимает «до тейка» и «сколько осталось»; если не понял — говорит, что услышал"
+    "Ассистент: сводка по монете — «Орбита, что там по хайпу?»: цена, ваша позиция, тейк и стоп, ваши зоны, открытый интерес, фандинг"
   ],
-  "sig": "H6zWLWpZTA++ad8oJozaoGgBl3Ihf/cBIrhGWh8DZjqHUbp5l3p97/sEz/kFdx0B01e+On2RyMrAlh1TWOZeAw=="
+  "sig": "l0YNvUU5zYFznTiZdMjE6f1Pu76X8B1ig/r3o6aekW4mvzy7GWdQF7FNk1J1NveWC12pEyQ9uDw3uSHh65nuAQ=="
 }
