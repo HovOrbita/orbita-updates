@@ -1,11 +1,11 @@
 {
-  "build": 202611251945,
-  "label": "25.11 19:45",
+  "build": 202611252000,
+  "label": "25.11 20:00",
   "file": "orbita-update.zip",
-  "size": 242158,
-  "sha256": "f720a482d43031e6235cb8b47812c1037d51aed2d49a14388924c4507cb4487e",
+  "size": 242419,
+  "sha256": "825531bf714e84d864c312590ccce3bcace0e2c71b897a5026102a67124c31dd",
   "notes": [
-    "Gate: время сверяется с биржей — связь не пропадает, если часы Windows ушли"
+    "Быстрее: ассистент нагружает компьютер в разы меньше, не скачивает списки монет на каждый вопрос"
   ],
-  "sig": "eUS7APTgoVL3LnmQZmbY4Dvk3BY/QpHCW4mxu1x+NKAI33yUSOfoqdpn5KPHOTmeRPPoG5D9yFikl9u4oF01Aw=="
+  "sig": "czApKcwTLPkxjqI449RZY4nnJn+IedUFEVFF4Jj4CkMJMVtQzC6RNmwxy9pMwcy10vz+uMjL2dHJLFTEJybvDg=="
 }
