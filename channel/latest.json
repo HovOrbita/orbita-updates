@@ -1,11 +1,11 @@
 {
-  "build": 202611251915,
-  "label": "25.11 19:15",
+  "build": 202611251930,
+  "label": "25.11 19:30",
   "file": "orbita-update.zip",
-  "size": 240575,
-  "sha256": "a0dea72147ea9e574c344a27983f8a3d23b56c0758c11834cf71183072e9468c",
+  "size": 242058,
+  "sha256": "48a0e6b7c2de247d59e6b70e1aa597aa455615d3f1e4d52c51fecb8cd0e71fa9",
   "notes": [
-    "Ассистент: «Орбита, памп на пятнадцать минут» — сразу открывает монету на нужном таймфрейме"
+    "Ассистент не открывает случайные монеты; можно научить его своему слову для монеты («Это монета…» в окне микрофона)"
   ],
-  "sig": "s51DyKdn42/aupsEPzDaKnji+/4ZoE5/sI5PsaLxmJVqO8hrHLQuYRvaOGs7o60/y9m8vLk3BwA3iQf9mXa4BA=="
+  "sig": "XoaBy8Hn/zIiKze0oMZjw/TTcPuwt9Yx2Wq/7pnNtkuB9wNBFCHC9dgVYk5swbMQHfHorJkLbSMQhWmbNZdPAQ=="
 }
