@@ -1,11 +1,11 @@
 {
-  "build": 202611252045,
-  "label": "25.11 20:45",
+  "build": 202611252110,
+  "label": "25.11 21:10",
   "file": "orbita-update.zip",
-  "size": 243223,
-  "sha256": "01cd2c5a16bba894f5ec52ac932697a44ef7f0564f709f426b4ce4df37c1944e",
+  "size": 245366,
+  "sha256": "f3c13e4d368bee7097ea837c8a7e7672dcc8ac8e2ff78278cccf2607ff88d2f0",
   "notes": [
-    "Ассистент: если монета уже открыта в ячейке — меняет таймфрейм у неё, а не заменяет другой график"
+    "Ассистент: режим словаря — монеты распознаются точно; любую монету можно назвать по буквам"
   ],
-  "sig": "lDhgh4bOQkh3f8KtZ4AvnIERm5NiFZNVIfE5Ys+s09rV6oZx1JyVfQn9qfk5Jjs347YHltAyGnR2doTqlSsZCw=="
+  "sig": "g/bTR6Zci1ugOjTskm8eDSVHvQe1hu+HF9h++XJWCSWwuoV1OCqqiF43M0U5601Ci9IDW9v5zlNX4pejlEiIDQ=="
 }
