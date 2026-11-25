@@ -1,11 +1,11 @@
 {
-  "build": 202611251930,
-  "label": "25.11 19:30",
+  "build": 202611251945,
+  "label": "25.11 19:45",
   "file": "orbita-update.zip",
-  "size": 242058,
-  "sha256": "48a0e6b7c2de247d59e6b70e1aa597aa455615d3f1e4d52c51fecb8cd0e71fa9",
+  "size": 242158,
+  "sha256": "f720a482d43031e6235cb8b47812c1037d51aed2d49a14388924c4507cb4487e",
   "notes": [
-    "Ассистент не открывает случайные монеты; можно научить его своему слову для монеты («Это монета…» в окне микрофона)"
+    "Gate: время сверяется с биржей — связь не пропадает, если часы Windows ушли"
   ],
-  "sig": "XoaBy8Hn/zIiKze0oMZjw/TTcPuwt9Yx2Wq/7pnNtkuB9wNBFCHC9dgVYk5swbMQHfHorJkLbSMQhWmbNZdPAQ=="
+  "sig": "eUS7APTgoVL3LnmQZmbY4Dvk3BY/QpHCW4mxu1x+NKAI33yUSOfoqdpn5KPHOTmeRPPoG5D9yFikl9u4oF01Aw=="
 }
