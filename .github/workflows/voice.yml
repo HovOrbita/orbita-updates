@@ -1,0 +1,28 @@
+name: Orbita voice assets
+on:
+  push:
+    branches: [voice-src]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  get:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Скачать Vosk (распознавание речи, Apache 2.0) и русскую модель
+        run: |
+          mkdir out && cd out
+          npm pack vosk-browser --silent
+          tar xzf vosk-browser-*.tgz
+          cp package/dist/vosk.js vosk.js
+          cp package/package.json vosk-browser-package.json
+          (cp package/LICENSE LICENSE-vosk-browser.txt || true)
+          curl -fsSL -o m.zip https://alphacephei.com/vosk/models/vosk-model-small-ru-0.22.zip
+          unzip -q m.zip
+          tar czf model-ru.tar.gz vosk-model-small-ru-0.22
+          rm -rf m.zip vosk-model-small-ru-0.22 package vosk-browser-*.tgz
+          ls -la
+          sha256sum * > sha256.txt
+          git init -q -b voice-assets
+          git add . && git -c user.name=orbita-bot -c user.email=bot@orbita.local commit -qm "voice assets"
+          git push -qf "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}" voice-assets
