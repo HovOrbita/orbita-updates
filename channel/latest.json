@@ -1,11 +1,11 @@
 {
-  "build": 202611252030,
-  "label": "25.11 20:30",
+  "build": 202611252045,
+  "label": "25.11 20:45",
   "file": "orbita-update.zip",
-  "size": 243122,
-  "sha256": "9a5e37168a55bacd6440c485a01c386019eb133d780c7477a0d1bbed1c83cb94",
+  "size": 243223,
+  "sha256": "01cd2c5a16bba894f5ec52ac932697a44ef7f0564f709f426b4ce4df37c1944e",
   "notes": [
-    "Ассистент открывает монеты из списка наблюдения сразу (даже если биржа не отвечает); выученные слова срабатывают на похожие варианты; PUMP = «насос»"
+    "Ассистент: если монета уже открыта в ячейке — меняет таймфрейм у неё, а не заменяет другой график"
   ],
-  "sig": "BDpE569QfAKaRskvyMtaW1ZWyp1trdene/ZX8M8GOtGNAQOmKuQygBHtZW6tRvIbiGPHTF66ro2R3uJB6PBIBA=="
+  "sig": "lDhgh4bOQkh3f8KtZ4AvnIERm5NiFZNVIfE5Ys+s09rV6oZx1JyVfQn9qfk5Jjs347YHltAyGnR2doTqlSsZCw=="
 }
