@@ -1,11 +1,11 @@
 {
-  "build": 202611251725,
-  "label": "25.11 17:25",
+  "build": 202611251755,
+  "label": "25.11 17:55",
   "file": "orbita-update.zip",
-  "size": 234502,
-  "sha256": "a6aee9e36e3e1091e5105a2d41cbc6247abd2c21aa8b8c44749901acd29078eb",
+  "size": 236994,
+  "sha256": "de9eb156941926328cb1a4659befb7461c0e6809aed03e0b44fac40110ac3ec5",
   "notes": [
-    "Ассистент узнаёт любые монеты по звучанию («памп», «пенгу», «вирт»)"
+    "Ассистент работает с любыми монетами: ~100 названий по-русски, узнавание по звучанию, открытый интерес на Binance, Bybit и Gate"
   ],
-  "sig": "TVgPSGdgeFXpSvoCeNg/hwD7Ml83/3ogLmRyRfBehNnhSgPE1T+uueSwbv/lKr52zgJQ5n64h3tF/mbSP8AFAw=="
+  "sig": "LTIGDxKMd81bF0IttIo5qp3N8JN96FDKxZ92mWrdyj4Iz0psFAOGVleSSt6hpf0SV0+UE/3DII1mPTvXj2v+DQ=="
 }
