@@ -1,12 +1,12 @@
 {
-  "build": 202611271900,
-  "label": "27.11 19:00",
+  "build": 202611272300,
+  "label": "27.11 23:00",
   "file": "orbita-update.zip",
-  "size": 280058,
-  "sha256": "20d80f2890627a89ec2bb098c4a2fc6d5f94d7525330931aebd00ccdd732aad9",
+  "size": 280205,
+  "sha256": "d00b1787171a6b0ce7849cfb7184d5cb0d199ccdcf35cd4bc3abbf9d9d27ee86",
   "notes": [
-    "English interface: the RU/EN button in the right bar switches the program language (voice assistant and voice alerts stay in Russian)",
-    "Английский язык программы: кнопка RU/EN на правой панели. Голосовой ассистент и голосовые сигналы остаются на русском"
+    "Язык переключается сразу во всех окнах программы",
+    "Language now switches in all program windows at once"
   ],
-  "sig": "WS1t8yDhQpQKJ9LC5dPPvDgohXVHgbvPcTremPomxnEaeUYVwCNiyyjwWmqHhocBFuSn/8E/1php0+IdthBdDQ=="
+  "sig": "hNmUlkI2fUFijzjFLXb/1UmkTlyLGd7vezicmgOS6tTL6rF+BsMQdg1+i4nG41x5k0PoUSWwj7WhH7k7PCGaBQ=="
 }
