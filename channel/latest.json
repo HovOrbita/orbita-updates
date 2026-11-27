@@ -1,11 +1,12 @@
 {
-  "build": 202611252200,
-  "label": "25.11 22:00",
+  "build": 202611271900,
+  "label": "27.11 19:00",
   "file": "orbita-update.zip",
-  "size": 247731,
-  "sha256": "afb482e02c34cbc9ec432c4bbfedd82f65f78bf2c776d81c912cabc6e26c631e",
+  "size": 280058,
+  "sha256": "20d80f2890627a89ec2bb098c4a2fc6d5f94d7525330931aebd00ccdd732aad9",
   "notes": [
-    "Ассистент: «Орбита, как дела?» — все сделки, сколько в долларах, сколько лимиток исполнилось"
+    "English interface: the RU/EN button in the right bar switches the program language (voice assistant and voice alerts stay in Russian)",
+    "Английский язык программы: кнопка RU/EN на правой панели. Голосовой ассистент и голосовые сигналы остаются на русском"
   ],
-  "sig": "9P1hLiGkQGwYnOlpskAcWJ7D+xGWI4UJnVwYfmMoz2gAJshI310amZgFInL/qXnkRlnHvwFkKKb+5iw/okBuDw=="
+  "sig": "WS1t8yDhQpQKJ9LC5dPPvDgohXVHgbvPcTremPomxnEaeUYVwCNiyyjwWmqHhocBFuSn/8E/1php0+IdthBdDQ=="
 }
