@@ -1,12 +1,12 @@
 {
-  "build": 202611272300,
-  "label": "27.11 23:00",
+  "build": 202611272330,
+  "label": "27.11 23:30",
   "file": "orbita-update.zip",
-  "size": 280205,
-  "sha256": "d00b1787171a6b0ce7849cfb7184d5cb0d199ccdcf35cd4bc3abbf9d9d27ee86",
+  "size": 288611,
+  "sha256": "ba3f8de9e45fef77365eaaded67d1791d461912fd2de9558133e37e7a99e50e8",
   "notes": [
-    "Язык переключается сразу во всех окнах программы",
-    "Language now switches in all program windows at once"
+    "Голосовой ассистент на английском: в английском интерфейсе — слово «Orbit» и ответы по-английски (один раз скачает английскую модель ~39 МБ)",
+    "Voice assistant in English: in the English interface say \"Orbit\" and get answers in English"
   ],
-  "sig": "hNmUlkI2fUFijzjFLXb/1UmkTlyLGd7vezicmgOS6tTL6rF+BsMQdg1+i4nG41x5k0PoUSWwj7WhH7k7PCGaBQ=="
+  "sig": "OBMdhOmI+t0zoXsEicxp/eV1s0C0ewwFpYDT5BNrQXdZbnE0E0aox81uarP2P6swpROoIZF3Xu/MZJa44DLSAA=="
 }
