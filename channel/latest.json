@@ -1,12 +1,12 @@
 {
-  "build": 202611272330,
-  "label": "27.11 23:30",
+  "build": 202611281550,
+  "label": "28.11 15:50",
   "file": "orbita-update.zip",
-  "size": 288611,
-  "sha256": "ba3f8de9e45fef77365eaaded67d1791d461912fd2de9558133e37e7a99e50e8",
+  "size": 288656,
+  "sha256": "3ee1c358f7575048b52848c198b081acee65e627888f1b859851f18e72db932d",
   "notes": [
-    "Голосовой ассистент на английском: в английском интерфейсе — слово «Orbit» и ответы по-английски (один раз скачает английскую модель ~39 МБ)",
-    "Voice assistant in English: in the English interface say \"Orbit\" and get answers in English"
+    "Телефон: после обновления программа больше не меняет адрес для телефона",
+    "Phone: the phone address no longer changes after an update"
   ],
-  "sig": "OBMdhOmI+t0zoXsEicxp/eV1s0C0ewwFpYDT5BNrQXdZbnE0E0aox81uarP2P6swpROoIZF3Xu/MZJa44DLSAA=="
+  "sig": "4o+VkoXejkYL86Ee7GW4oxN8TCa3nsn7GbfpPhUdGy4wPMIo/KiAFUev1Ozi/SVy4WPVDVlK/iR/zn9qXIuFAQ=="
 }
